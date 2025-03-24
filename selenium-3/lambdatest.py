@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from dotenv import load_dotenv
+load_dotenv()
 import warnings
 
 username = os.getenv("LT_USERNAME")  # Replace the username
