@@ -30,7 +30,7 @@ class LambdaTest(unittest.TestCase):
 
     def setUp(self):
         """ Setup different browsers based on a parameter """
-        browser = os.getenv("BROWSER", "firefox")  # Default: Chrome
+        browser = os.getenv("BROWSER", "ie")  # Default: Chrome
 
         lt_options = {
             "username": username,
