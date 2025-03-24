@@ -1,0 +1,11 @@
+Chrome + 128.0 + Windows 10
+DJCLI-HBHXX-Z33TJ-WB82R
+
+MicrosoftEdge + 128.0 + macOS Sierra
+5SVPG-CQBYX-DZY4Z-TTBQV
+
+Firefox + 128.0 + Windows 
+79YBCP-ATJXT-HNXYY-UP9K3
+
+Internet Explorer + 11.0 + Windows 10
+LNSHK-DJNER-LW38W-NP8JE

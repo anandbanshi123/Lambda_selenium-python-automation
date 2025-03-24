@@ -1,6 +1,9 @@
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+image: python:3.9
+
 tasks:
-  - init: pip install -r requirements.txt && export PYTHONWARNINGS="ignore:Unverified HTTPS request"  # runs during prebuild
-    command: python lambdatest.py
+  - name: Install Dependencies
+    command: pip install -r requirements.txt
 
-
+ports:
+  - port: 4444
+    onOpen: open-preview
